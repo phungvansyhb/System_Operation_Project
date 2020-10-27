@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_C___Traninning"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_main">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_main/fast">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_calc">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_calc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_calc/fast">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_calc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning/fast">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_thread">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_thread"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_C___Traninning_thread/fast">
+				<Option output="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/C_C___Traninning_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_C___Traninning_thread/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/phungsy/Documents/C-C++_Trainnning/IOinC.c">
+			<Option target="C_C___Traninning"/>
+		</Unit>
+		<Unit filename="/home/phungsy/Documents/C-C++_Trainnning/calc.c">
+			<Option target="C_C___Traninning_calc"/>
+		</Unit>
+		<Unit filename="/home/phungsy/Documents/C-C++_Trainnning/main.c">
+			<Option target="C_C___Traninning_main"/>
+		</Unit>
+		<Unit filename="/home/phungsy/Documents/C-C++_Trainnning/thread_mutex.c">
+			<Option target="C_C___Traninning_thread"/>
+		</Unit>
+		<Unit filename="/home/phungsy/Documents/C-C++_Trainnning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

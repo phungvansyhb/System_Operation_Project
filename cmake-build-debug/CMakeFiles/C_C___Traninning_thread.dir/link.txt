@@ -1,0 +1,1 @@
+/usr/bin/cc -pthread -g   CMakeFiles/C_C___Traninning_thread.dir/thread_mutex.c.o  -o C_C___Traninning_thread 

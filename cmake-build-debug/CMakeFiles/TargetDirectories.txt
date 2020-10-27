@@ -1,0 +1,6 @@
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Traninning_main.dir
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Traninning_calc.dir
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Traninning.dir
+/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Traninning_thread.dir
