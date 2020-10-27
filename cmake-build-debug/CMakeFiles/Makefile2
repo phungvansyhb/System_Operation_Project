@@ -73,10 +73,8 @@ CMAKE_BINARY_DIR = /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/C_C___Traninning_main.dir/all
-all: CMakeFiles/C_C___Traninning_calc.dir/all
-all: CMakeFiles/C_C___Traninning.dir/all
-all: CMakeFiles/C_C___Traninning_thread.dir/all
+all: CMakeFiles/C_C___Trainning_thread_mutex.dir/all
+all: CMakeFiles/C_C___Trainning_thread.dir/all
 
 .PHONY : all
 
@@ -86,120 +84,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/C_C___Traninning_main.dir/clean
-clean: CMakeFiles/C_C___Traninning_calc.dir/clean
-clean: CMakeFiles/C_C___Traninning.dir/clean
-clean: CMakeFiles/C_C___Traninning_thread.dir/clean
+clean: CMakeFiles/C_C___Trainning_thread_mutex.dir/clean
+clean: CMakeFiles/C_C___Trainning_thread.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/C_C___Traninning_main.dir
+# Target rules for target CMakeFiles/C_C___Trainning_thread_mutex.dir
 
 # All Build rule for target.
-CMakeFiles/C_C___Traninning_main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target C_C___Traninning_main"
-.PHONY : CMakeFiles/C_C___Traninning_main.dir/all
+CMakeFiles/C_C___Trainning_thread_mutex.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target C_C___Trainning_thread_mutex"
+.PHONY : CMakeFiles/C_C___Trainning_thread_mutex.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/C_C___Traninning_main.dir/rule: cmake_check_build_system
+CMakeFiles/C_C___Trainning_thread_mutex.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Traninning_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Trainning_thread_mutex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/C_C___Traninning_main.dir/rule
+.PHONY : CMakeFiles/C_C___Trainning_thread_mutex.dir/rule
 
 # Convenience name for target.
-C_C___Traninning_main: CMakeFiles/C_C___Traninning_main.dir/rule
+C_C___Trainning_thread_mutex: CMakeFiles/C_C___Trainning_thread_mutex.dir/rule
 
-.PHONY : C_C___Traninning_main
+.PHONY : C_C___Trainning_thread_mutex
 
 # clean rule for target.
-CMakeFiles/C_C___Traninning_main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/clean
-.PHONY : CMakeFiles/C_C___Traninning_main.dir/clean
+CMakeFiles/C_C___Trainning_thread_mutex.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/clean
+.PHONY : CMakeFiles/C_C___Trainning_thread_mutex.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/C_C___Traninning_calc.dir
+# Target rules for target CMakeFiles/C_C___Trainning_thread.dir
 
 # All Build rule for target.
-CMakeFiles/C_C___Traninning_calc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target C_C___Traninning_calc"
-.PHONY : CMakeFiles/C_C___Traninning_calc.dir/all
+CMakeFiles/C_C___Trainning_thread.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target C_C___Trainning_thread"
+.PHONY : CMakeFiles/C_C___Trainning_thread.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/C_C___Traninning_calc.dir/rule: cmake_check_build_system
+CMakeFiles/C_C___Trainning_thread.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Traninning_calc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Trainning_thread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/C_C___Traninning_calc.dir/rule
+.PHONY : CMakeFiles/C_C___Trainning_thread.dir/rule
 
 # Convenience name for target.
-C_C___Traninning_calc: CMakeFiles/C_C___Traninning_calc.dir/rule
+C_C___Trainning_thread: CMakeFiles/C_C___Trainning_thread.dir/rule
 
-.PHONY : C_C___Traninning_calc
-
-# clean rule for target.
-CMakeFiles/C_C___Traninning_calc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/clean
-.PHONY : CMakeFiles/C_C___Traninning_calc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/C_C___Traninning.dir
-
-# All Build rule for target.
-CMakeFiles/C_C___Traninning.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target C_C___Traninning"
-.PHONY : CMakeFiles/C_C___Traninning.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/C_C___Traninning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Traninning.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/C_C___Traninning.dir/rule
-
-# Convenience name for target.
-C_C___Traninning: CMakeFiles/C_C___Traninning.dir/rule
-
-.PHONY : C_C___Traninning
+.PHONY : C_C___Trainning_thread
 
 # clean rule for target.
-CMakeFiles/C_C___Traninning.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/clean
-.PHONY : CMakeFiles/C_C___Traninning.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/C_C___Traninning_thread.dir
-
-# All Build rule for target.
-CMakeFiles/C_C___Traninning_thread.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target C_C___Traninning_thread"
-.PHONY : CMakeFiles/C_C___Traninning_thread.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/C_C___Traninning_thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C_C___Traninning_thread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/C_C___Traninning_thread.dir/rule
-
-# Convenience name for target.
-C_C___Traninning_thread: CMakeFiles/C_C___Traninning_thread.dir/rule
-
-.PHONY : C_C___Traninning_thread
-
-# clean rule for target.
-CMakeFiles/C_C___Traninning_thread.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/clean
-.PHONY : CMakeFiles/C_C___Traninning_thread.dir/clean
+CMakeFiles/C_C___Trainning_thread.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/clean
+.PHONY : CMakeFiles/C_C___Trainning_thread.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

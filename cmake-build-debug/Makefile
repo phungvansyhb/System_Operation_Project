@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,110 +131,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C_C___Traninning_main
+# Target rules for targets named C_C___Trainning_thread_mutex
 
 # Build rule for target.
-C_C___Traninning_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Traninning_main
-.PHONY : C_C___Traninning_main
+C_C___Trainning_thread_mutex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Trainning_thread_mutex
+.PHONY : C_C___Trainning_thread_mutex
 
 # fast build rule for target.
-C_C___Traninning_main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/build
-.PHONY : C_C___Traninning_main/fast
+C_C___Trainning_thread_mutex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/build
+.PHONY : C_C___Trainning_thread_mutex/fast
 
 #=============================================================================
-# Target rules for targets named C_C___Traninning_calc
+# Target rules for targets named C_C___Trainning_thread
 
 # Build rule for target.
-C_C___Traninning_calc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Traninning_calc
-.PHONY : C_C___Traninning_calc
+C_C___Trainning_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Trainning_thread
+.PHONY : C_C___Trainning_thread
 
 # fast build rule for target.
-C_C___Traninning_calc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/build
-.PHONY : C_C___Traninning_calc/fast
-
-#=============================================================================
-# Target rules for targets named C_C___Traninning
-
-# Build rule for target.
-C_C___Traninning: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Traninning
-.PHONY : C_C___Traninning
-
-# fast build rule for target.
-C_C___Traninning/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/build
-.PHONY : C_C___Traninning/fast
-
-#=============================================================================
-# Target rules for targets named C_C___Traninning_thread
-
-# Build rule for target.
-C_C___Traninning_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_C___Traninning_thread
-.PHONY : C_C___Traninning_thread
-
-# fast build rule for target.
-C_C___Traninning_thread/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/build
-.PHONY : C_C___Traninning_thread/fast
-
-IOinC.o: IOinC.c.o
-
-.PHONY : IOinC.o
-
-# target to build an object file
-IOinC.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/IOinC.c.o
-.PHONY : IOinC.c.o
-
-IOinC.i: IOinC.c.i
-
-.PHONY : IOinC.i
-
-# target to preprocess a source file
-IOinC.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/IOinC.c.i
-.PHONY : IOinC.c.i
-
-IOinC.s: IOinC.c.s
-
-.PHONY : IOinC.s
-
-# target to generate assembly for a file
-IOinC.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning.dir/build.make CMakeFiles/C_C___Traninning.dir/IOinC.c.s
-.PHONY : IOinC.c.s
-
-calc.o: calc.c.o
-
-.PHONY : calc.o
-
-# target to build an object file
-calc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/calc.c.o
-.PHONY : calc.c.o
-
-calc.i: calc.c.i
-
-.PHONY : calc.i
-
-# target to preprocess a source file
-calc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/calc.c.i
-.PHONY : calc.c.i
-
-calc.s: calc.c.s
-
-.PHONY : calc.s
-
-# target to generate assembly for a file
-calc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_calc.dir/build.make CMakeFiles/C_C___Traninning_calc.dir/calc.c.s
-.PHONY : calc.c.s
+C_C___Trainning_thread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/build
+.PHONY : C_C___Trainning_thread/fast
 
 main.o: main.c.o
 
@@ -242,7 +162,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -251,7 +171,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -260,35 +180,35 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_main.dir/build.make CMakeFiles/C_C___Traninning_main.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread.dir/build.make CMakeFiles/C_C___Trainning_thread.dir/main.c.s
 .PHONY : main.c.s
 
-thread_mutex.o: thread_mutex.c.o
+thread_UseMutex.o: thread_UseMutex.c.o
 
-.PHONY : thread_mutex.o
+.PHONY : thread_UseMutex.o
 
 # target to build an object file
-thread_mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/thread_mutex.c.o
-.PHONY : thread_mutex.c.o
+thread_UseMutex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/thread_UseMutex.c.o
+.PHONY : thread_UseMutex.c.o
 
-thread_mutex.i: thread_mutex.c.i
+thread_UseMutex.i: thread_UseMutex.c.i
 
-.PHONY : thread_mutex.i
+.PHONY : thread_UseMutex.i
 
 # target to preprocess a source file
-thread_mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/thread_mutex.c.i
-.PHONY : thread_mutex.c.i
+thread_UseMutex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/thread_UseMutex.c.i
+.PHONY : thread_UseMutex.c.i
 
-thread_mutex.s: thread_mutex.c.s
+thread_UseMutex.s: thread_UseMutex.c.s
 
-.PHONY : thread_mutex.s
+.PHONY : thread_UseMutex.s
 
 # target to generate assembly for a file
-thread_mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Traninning_thread.dir/build.make CMakeFiles/C_C___Traninning_thread.dir/thread_mutex.c.s
-.PHONY : thread_mutex.c.s
+thread_UseMutex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_C___Trainning_thread_mutex.dir/build.make CMakeFiles/C_C___Trainning_thread_mutex.dir/thread_UseMutex.c.s
+.PHONY : thread_UseMutex.c.s
 
 # Help Target
 help:
@@ -298,22 +218,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... C_C___Traninning"
-	@echo "... C_C___Traninning_calc"
-	@echo "... C_C___Traninning_main"
-	@echo "... C_C___Traninning_thread"
-	@echo "... IOinC.o"
-	@echo "... IOinC.i"
-	@echo "... IOinC.s"
-	@echo "... calc.o"
-	@echo "... calc.i"
-	@echo "... calc.s"
+	@echo "... C_C___Trainning_thread"
+	@echo "... C_C___Trainning_thread_mutex"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... thread_mutex.o"
-	@echo "... thread_mutex.i"
-	@echo "... thread_mutex.s"
+	@echo "... thread_UseMutex.o"
+	@echo "... thread_UseMutex.i"
+	@echo "... thread_UseMutex.s"
 .PHONY : help
 
 

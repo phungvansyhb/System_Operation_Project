@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=C_C___Traninning
+CMAKE_PROJECT_NAME:STATIC=C_C___Trainning
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -219,6 +219,18 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+C_C___Trainning_BINARY_DIR:STATIC=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug
+
+//Value Computed by CMake
+C_C___Trainning_SOURCE_DIR:STATIC=/home/phungsy/Documents/C-C++_Trainnning
+
+//Value Computed by CMake
+C_C___Trainnning_BINARY_DIR:STATIC=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug
+
+//Value Computed by CMake
+C_C___Trainnning_SOURCE_DIR:STATIC=/home/phungsy/Documents/C-C++_Trainnning
 
 //Value Computed by CMake
 C_C___Traninning_BINARY_DIR:STATIC=/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug

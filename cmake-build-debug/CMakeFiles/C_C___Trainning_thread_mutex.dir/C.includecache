@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/phungsy/Documents/C-C++_Trainnning/thread_UseMutex.c
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+
