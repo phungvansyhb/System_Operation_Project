@@ -1,12 +1,14 @@
- #  This project for System Operation in HUST
+# This project for System Operation assignment by prof.Tien
 
-# Owner : Phùng Văn Sỹ
+# Owner : Phùng Văn Sỹ - 20172796
 
-# To run project : 
- + Open with Clion Editor , i'm config full in Cmake file 
- + Open folder in terminal (you msut have gcc compiler , make sure check gcc -v) then type 
-    `$gcc thread_mutex.c -lpthread`  ; 
-    `./a/out`
- # result 
+# Environment:
+  + unbutu 18.04 ;
+  + gcc 7.5.0;
+  + mailutils , postfix
+  + CLion IDE 
+  
+# Result 
    see **thread.png** in folder 
- # if you want to edit create a request, pls !
+   
+# If you want to edit create a request, pls !
