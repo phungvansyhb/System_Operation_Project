@@ -7,8 +7,9 @@
   + gcc 7.5.0;
   + mailutils , postfix
   + CLion IDE 
+
   
 # Result 
-   see **thread.png** in folder 
+   Compile **main.c** file and result like **thread.png**  
    
 # If you want to edit create a request, pls !
