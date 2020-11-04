@@ -1,1 +1,0 @@
-/usr/bin/cc -pthread -g   CMakeFiles/C_C___Trainning_thread.dir/main.c.o  -o C_C___Trainning_thread 
