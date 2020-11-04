@@ -1,4 +1,0 @@
-/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Trainning_thread_mutex.dir
-/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/phungsy/Documents/C-C++_Trainnning/cmake-build-debug/CMakeFiles/C_C___Trainning_thread.dir

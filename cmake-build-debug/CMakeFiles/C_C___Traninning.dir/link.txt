@@ -1,1 +1,0 @@
-/usr/bin/cc -pthread -g   CMakeFiles/C_C___Traninning.dir/IOinC.c.o  -o C_C___Traninning 
