@@ -6,8 +6,8 @@
 
     + Khi một đoàn tàu đến ga và nó mở cửa nó sẽ gọi hàm :
             station_load_train(struct station *station, int count)
-         // trong đó count cho biết có bao nhiêu chỗ ngồi trên tàu.
-            Chức năng này không được hoạt động trở lại cho đến khi tàu được xếp đầy đủ (tất cả hành khách đã ngồi trên ghế của mình và [tàu đã đầy chỗ] hoặc [tất cả hành khách đang chờ đã lên tàu] ).
+         // trong đó count cho biết có bao nhiêu chỗ  ngồi free trên tàu.
+            Chức năng này ko tra ve cho đến khi tàu được xếp đầy đủ (tất cả hành khách đã ngồi trên ghế của mình và [tàu đã đầy chỗ] hoặc [tất cả hành khách đang chờ đã lên tàu] ).
     + Khi rô bốt chở khách đến nhà ga, đầu tiên nó sẽ gọi hàm :
             station_wait_for_train(struct station *station)
          // hàm này không trả về cho đến khi tàu ở trong ga và có đủ ghế cho hành khách ngồi . Một khi hàm
@@ -32,7 +32,7 @@
 
           // ref in synch file in thread pintos
         No semaphores or other synchronization primitives
-       1 ,không sử dụng nhiều hơn khóa cho mỗi struct station
+       1 ,không sử dụng nhiều hơn 1 khóa cho mỗi struct station
        2 ,Bạn có thể giả định rằng không bao giờ có nhiều hơn một chuyến tàu trong nhà ga cùng một lúc
        và tất cả các chuyến tàu (và tất cả hành khách) đều đi đến cùng một điểm đến
        (tức là mọi hành khách có thể lên bất kỳ chuyến tàu nào).
